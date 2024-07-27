@@ -1,0 +1,54 @@
+{
+  "name": "macos-bundle-name",
+  "version": "1.0.0",
+  "description": "Retrieve the bundle name from a bundle identifier on macOS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vincenzomaritato/macos-bundle-name.git"
+  },
+  "keywords": [
+    "macos",
+    "bundle",
+    "identifier",
+    "bundle",
+    "name",
+    "app",
+    "name",
+    "macos",
+    "app",
+    "bundle",
+    "identifier",
+    "macos",
+    "development",
+    "macos",
+    "utilities"
+  ],
+  "funding": "https://github.com/sponsors/vincenzomaritato",
+  "author": {
+    "name": "Vincenzo Maritato",
+    "email": "vincenzomaritato2005@gmail.com",
+    "url": "https://spacehubnetwork.com"
+  },
+  "type": "module",
+  "exports": "./index.js",
+  "engines": {
+    "node": ">=12"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vincenzomaritato/macos-bundle-name/issues"
+  },
+  "homepage": "https://github.com/vincenzomaritato/macos-bundle-name#readme",
+  "devDependencies": {
+    "ava": "^6.1.3",
+    "tsd": "^0.31.1"
+  }
+}
